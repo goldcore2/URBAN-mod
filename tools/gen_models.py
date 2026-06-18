@@ -29,6 +29,40 @@ for name in CUBES:
     write(os.path.join(IM, name + ".json"),
           {"parent": "urban:block/" + name})
 
+# Shared sign model: a tall steel post with a panel mounted near the top. The
+# panel deliberately extends above the 16px block height (up to y=32) so the
+# sign reads at a realistic scale instead of being squashed into one block.
+SIGN_BASE = {
+    "parent": "block/block",
+    "textures": {"particle": "#post"},
+    "elements": [
+        {
+            "from": [7, 0, 7],
+            "to": [9, 26, 9],
+            "faces": {
+                "north": {"uv": [7, 0, 9, 16], "texture": "#post"},
+                "south": {"uv": [7, 0, 9, 16], "texture": "#post"},
+                "east": {"uv": [7, 0, 9, 16], "texture": "#post"},
+                "west": {"uv": [7, 0, 9, 16], "texture": "#post"},
+                "up": {"uv": [7, 7, 9, 9], "texture": "#post"},
+            },
+        },
+        {
+            "from": [1, 21, 7.25],
+            "to": [15, 32, 8.75],
+            "faces": {
+                "north": {"uv": [16, 0, 0, 16], "texture": "#panel"},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#panel"},
+                "up": {"uv": [1, 7, 15, 8], "texture": "#post"},
+                "down": {"uv": [1, 7, 15, 8], "texture": "#post"},
+                "east": {"uv": [7, 0, 8, 11], "texture": "#post"},
+                "west": {"uv": [7, 0, 8, 11], "texture": "#post"},
+            },
+        },
+    ],
+}
+write(os.path.join(BM, "sign_base.json"), SIGN_BASE)
+
 for name in SIGNS:
     write(os.path.join(BS, name + ".json"), {"variants": {
         "facing=north": {"model": "urban:block/" + name},
