@@ -1,0 +1,12 @@
+{
+    "type": "urban:city",
+    "biomes": "#urban:has_city",
+    "step": "surface_structures",
+    "terrain_adaptation": "beard_thin",
+    "spawn_overrides": {},
+    "grid_radius": 5,
+    "block_size": 18,
+    "street_width": 4,
+    "autobahn_min_lanes": 2,
+    "autobahn_max_lanes": 3
+}

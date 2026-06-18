@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "urban:block/sign_exit"
+        },
+        "facing=east": {
+            "model": "urban:block/sign_exit",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "urban:block/sign_exit",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "urban:block/sign_exit",
+            "y": 270
+        }
+    }
+}

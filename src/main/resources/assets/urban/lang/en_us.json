@@ -1,0 +1,15 @@
+{
+    "itemGroup.urban": "Urban",
+    "block.urban.asphalt": "Asphalt",
+    "block.urban.road_marking_white": "White Road Marking",
+    "block.urban.road_marking_yellow": "Yellow Road Marking",
+    "block.urban.crosswalk": "Crosswalk",
+    "block.urban.sidewalk": "Sidewalk",
+    "block.urban.sign_stop": "Stop Sign",
+    "block.urban.sign_priority": "Priority Road Sign (Vorfahrtsstraße)",
+    "block.urban.sign_yield": "Yield Sign (Vorfahrt gewähren)",
+    "block.urban.sign_speed_50": "Speed Limit 50 Sign",
+    "block.urban.sign_autobahn": "Autobahn Sign",
+    "block.urban.sign_city_limit": "City Limit Sign (Ortstafel)",
+    "block.urban.sign_exit": "Exit Sign (Ausfahrt)"
+}
