@@ -1,0 +1,7 @@
+{
+    "parent": "urban:block/sign_base",
+    "textures": {
+        "post": "urban:block/post",
+        "panel": "urban:block/sign_exit"
+    }
+}

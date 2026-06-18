@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "urban:block/sign_priority"
+        },
+        "facing=east": {
+            "model": "urban:block/sign_priority",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "urban:block/sign_priority",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "urban:block/sign_priority",
+            "y": 270
+        }
+    }
+}

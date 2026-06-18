@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+            "structure": "urban:city",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 32,
+        "separation": 24,
+        "salt": 1390985,
+        "spread_type": "linear"
+    }
+}
